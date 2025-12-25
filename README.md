@@ -1,19 +1,13 @@
-# RubberPicker
+1# RubberPicker
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-silver.svg)](https://opensource.org/licenses/MIT) [![](https://jitpack.io/v/Chrisvin/RubberPicker.svg)](https://jitpack.io/#Chrisvin/RubberPicker) [![API](https://img.shields.io/badge/API-15%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=15) [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-RubberPicker-gold.svg?style=flat )]( https://android-arsenal.com/details/1/7867 )
+[![License: MIT](https://img.shields.io/badge/License-MIT-silver.svg)](https://opensource.org/licenses/MIT) 
 
 <p align="center"><img src="RubberPicker-Demo.gif"/></p>
 
 RubberPicker library contains the `RubberSeekBar` and `RubberRangePicker`, inspired by [Cuberto's rubber-range-picker](https://github.com/Cuberto/rubber-range-picker).
 
 ## Getting started
-### Setting up the dependency
-1. Add the JitPack repository to your root build.gradle at the end of repositories:
-```
-allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
+### Setting up the depen
 	}
 }
 ```
