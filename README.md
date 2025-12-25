@@ -1,19 +1,13 @@
-# RubberPicker
+1# RubberPicker
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-silver.svg)](https://opensource.org/licenses/MIT) [![](https://jitpack.io/v/Chrisvin/RubberPicker.svg)](https://jitpack.io/#Chrisvin/RubberPicker) [![API](https://img.shields.io/badge/API-15%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=15) [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-RubberPicker-gold.svg?style=flat )]( https://android-arsenal.com/details/1/7867 )
+[![License: MIT](https://img.shields.io/badge/License-MIT-silver.svg)](https://opensource.org/licenses/MIT) 
 
 <p align="center"><img src="RubberPicker-Demo.gif"/></p>
 
 RubberPicker library contains the `RubberSeekBar` and `RubberRangePicker`, inspired by [Cuberto's rubber-range-picker](https://github.com/Cuberto/rubber-range-picker).
 
 ## Getting started
-### Setting up the dependency
-1. Add the JitPack repository to your root build.gradle at the end of repositories:
-```
-allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
+### Setting up the depen
 	}
 }
 ```
@@ -39,10 +33,10 @@ To run the demo project, clone the repository and run it via Android Studio.
   app:defaultThumbRadius="16dp"
   app:normalTrackWidth="4dp"
   app:highlightTrackWidth="8dp"
-  app:normalTrackColor="#AAAAAA"
-  app:highlightTrackColor="#BA1F33"
-  app:defaultThumbInsideColor="#FFF"
-  app:highlightDefaultThumbOnTouchColor="#CD5D67"/>
+  app:normalTrackColor="#AA"
+  app:highlightTrackColor="#BA3"
+  app:defaultThumbInsideColor="#F"
+  app:highlightDefaultThumbOnTouchColor=67"/>
 
 <!-- Similar attributes can be applied for RubberRangePicker as well-->
 <com.jem.rubberpicker.RubberRangePicker
@@ -66,7 +60,7 @@ To run the demo project, clone the repository and run it via Android Studio.
 val rubberSeekBar = RubberSeekBar(this)
 rubberSeekBar.setMin(20)
 rubberSeekBar.setMax(80)
-rubberSeekBar.setElasticBehavior(ElasticBehavior.CUBIC)
+rubberSeekBar.setElast
 rubberSeekBar.setDampingRatio(0.4F)
 rubberSeekBar.setStiffness(1000F)
 rubberSeekBar.setStretchRange(50f)
