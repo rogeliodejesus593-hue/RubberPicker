@@ -39,10 +39,10 @@ To run the demo project, clone the repository and run it via Android Studio.
   app:defaultThumbRadius="16dp"
   app:normalTrackWidth="4dp"
   app:highlightTrackWidth="8dp"
-  app:normalTrackColor="#AAAAAA"
-  app:highlightTrackColor="#BA1F33"
-  app:defaultThumbInsideColor="#FFF"
-  app:highlightDefaultThumbOnTouchColor="#CD5D67"/>
+  app:normalTrackColor="#AA"
+  app:highlightTrackColor="#BA3"
+  app:defaultThumbInsideColor="#F"
+  app:highlightDefaultThumbOnTouchColor=67"/>
 
 <!-- Similar attributes can be applied for RubberRangePicker as well-->
 <com.jem.rubberpicker.RubberRangePicker
@@ -66,7 +66,7 @@ To run the demo project, clone the repository and run it via Android Studio.
 val rubberSeekBar = RubberSeekBar(this)
 rubberSeekBar.setMin(20)
 rubberSeekBar.setMax(80)
-rubberSeekBar.setElasticBehavior(ElasticBehavior.CUBIC)
+rubberSeekBar.setElast
 rubberSeekBar.setDampingRatio(0.4F)
 rubberSeekBar.setStiffness(1000F)
 rubberSeekBar.setStretchRange(50f)
